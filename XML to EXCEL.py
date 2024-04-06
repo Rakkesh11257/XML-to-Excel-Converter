@@ -74,6 +74,6 @@ def create_excel_from_xml(folder_path, output_excel):
         approved_assets_missing.to_excel(writer, sheet_name='Approved Assets with Missing Data', index=False)
 
 # Example usage
-folder_path = r"C:\Users\rakkesh_r\Documents\Pathfinder XML files\2nd April"
-output_excel = r'C:\Users\rakkesh_r\Desktop\output.xlsx'
+folder_path = r"The folder path which has all the XML files"
+output_excel = r'Output path where you want the output file'
 create_excel_from_xml(folder_path, output_excel)
